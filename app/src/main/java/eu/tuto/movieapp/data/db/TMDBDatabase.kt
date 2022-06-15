@@ -13,7 +13,7 @@ import eu.tuto.movieapp.data.model.tvShow.TvShow
     exportSchema = false
 )
 abstract class TMDBDatabase : RoomDatabase() {
-    abstract fun movieDaa(): MovieDao
+    abstract fun movieDao(): MovieDao
     abstract fun tvDao(): TvShowDao
     abstract fun artistDao(): ArtistDao
 }
