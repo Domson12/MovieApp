@@ -1,4 +1,4 @@
-package eu.tuto.movieapp.data
+package eu.tuto.movieapp.data.db
 
 import androidx.room.Dao
 import androidx.room.Insert
@@ -16,5 +16,5 @@ interface ArtistDao {
     suspend fun deleteAllArtists()
 
     @Query("SELECT * FROM popular_artists")
-    suspend fun getArtist(artist: List<Artist>)
+    suspend fun getArtist():List<Artist>
 }
