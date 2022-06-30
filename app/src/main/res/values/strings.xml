@@ -4,4 +4,6 @@
     <string name="tv_shows">Tv Shows</string>
     <string name="artists">Artists</string>
     <string name="update">update</string>
+    <string name="powered_by">powered_by</string>
+    <string name="movtop">movTop</string>
 </resources>
