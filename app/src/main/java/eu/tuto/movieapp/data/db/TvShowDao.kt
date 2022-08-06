@@ -11,9 +11,9 @@ interface TvShowDao {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun saveTvShow(tvShow: List<TvShow>)
 
-    @Query("DELETE FROM popular_movies")
+    @Query("DELETE FROM popular_tvShows")
     suspend fun deleteAllTvShows()
 
-    @Query("SELECT * FROM popular_movies")
+    @Query("SELECT * FROM popular_tvShows")
     suspend fun getTvShow(): List<TvShow>
 }

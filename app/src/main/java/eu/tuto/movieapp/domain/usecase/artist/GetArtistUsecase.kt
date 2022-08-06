@@ -5,4 +5,5 @@ import eu.tuto.movieapp.domain.repository.ArtistRepository
 
 class GetArtistUsecase(private val artistRepository: ArtistRepository) {
     suspend fun execute(): List<Artist>? = artistRepository.getArtist()
+
 }
