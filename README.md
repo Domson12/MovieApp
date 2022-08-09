@@ -18,5 +18,5 @@ This app showcases:
 
 ## Screenshots
 
-https://user-images.githubusercontent.com/97247402/183733758-a63bc1b6-b40d-419d-8585-29711ecba476.mp4
+https://user-images.githubusercontent.com/97247402/183734842-f560339a-e553-479d-85d9-7e30e9e7820f.mp4
 
