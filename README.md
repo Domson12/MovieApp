@@ -23,6 +23,6 @@ https://user-images.githubusercontent.com/97247402/183734842-f560339a-e553-479d-
 # There are 3 buttons:
 * Movies
 * Tv Shows
-* Artists
+* Artists                                                                                                                                                                   
 when we click on them, new `activity` starts and top 20 of selected items shows in `recyclerView`. When we click refresh button on top right corner all items reload and list updates using `TMDB Api`. All old items gets deleted so app don't take so much space. 
 
