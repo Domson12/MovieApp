@@ -1,5 +1,6 @@
 # MovieApp
-##Curently working on multi platform version.
+## Curently working on multi platform version.
+
 Display popular movies, tv shows and actors using TMDB API  
 This app showcases:                                                                      
 * Retrofit working together with Room Database                    
