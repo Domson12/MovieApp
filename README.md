@@ -10,6 +10,12 @@ This app showcases:
 
 
 
+## Changelog
+PUBLIC VERSION 1.0
+Current state of the app
+
+
+
 ## Tech Stack
 
 *Retrofit*, *Dagger 2*, *Coroutines*, *Room*, *Glide*
